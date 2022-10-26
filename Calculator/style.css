@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html, body {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(180deg, #ded0fb, #eee7fd);
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+body:before {
+  content: '';
+  width: 800px;
+  height: 600px;
+  background: #5e17eb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+/*----------------Calculator--------------------*/
+.calculator {
+  width: 400px;
+  background: linear-gradient(135deg, #7e45ef, #5e17eb);
+  box-shadow: 0 10px 30px #8e5cf1;
+  margin: 30px auto;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -62%);
+}
+/*-------------------screen-------------------*/
+.screen {
+  background: #fff;
+  padding: 15px 30px;
+  height: 69px;
+  text-align: right;
+  font-size: 29px;
+  color: #4c455a;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 2px 3px #8e5cf1;
+  transition: color 0.6s ease-in-out;
+}
+.screen::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*--------------------Button--------------------*/
+.buttons button {
+  float: right;
+  border: none;
+  background: transparent;
+  color: #fff;
+  padding: 15px 10px;
+  outline: none;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.buttons button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.buttons button:active, .buttons button.active {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+}
+.buttons::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.buttons .numbers {
+  float: left;
+  width: 75%;
+  padding: 10px;
+}
+.buttons .numbers button {
+  width: 33.3333%;
+  padding: 18px 10px;
+}
+.buttons .operators {
+  float: right;
+  width: 25%;
+  padding: 16px 10px 10px;
+  background: rgba(0, 0, 0, 0.1);
+  min-height: 260px;
+}
+.buttons .operators button {
+  width: 100%;
+  padding: 11px 10px;
+}
+.buttons .operators button[data-val="x"] {
+  font-size: 13px;
+}
+.buttons .operators button[data-val="-"] {
+  font-size: 18px;
+}
+.buttons .operators button[data-val="="] {
+  font-size: 16px;
+}
