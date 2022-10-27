@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Dosis';
+}
+.container {
+    margin: 0 auto;
+    background-color: #5e17eb;
+    border-radius: 20px;
+    padding: 25px 50px;
+    width: 80vw;
+}
+.action {
+  max-width: 800px;
+  padding: 40px 0;
+  margin: 0 auto;
+  background-color: #7e45ef;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+.options {
+  flex: 1 1 30%;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #5e17eb;
+  animation-name: bounce;
+  animation-duration: 1s;
+  width: 100%;
+  max-width: 120px;
+}
+.display-moves {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.separator {
+  font-size: 4em;
+}

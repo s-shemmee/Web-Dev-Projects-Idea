@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet"/>
+    <link href="favicon-32x32.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Rock Papaer Scissors</title>
+</head>
+<body>
+  <div class="container">
+    <h1>The Rock Paper Scissors Game</h1>
+    <h2>Win five rounds to be the victor</h2>
+    <h2>
+      You <span id="p-score">0</span> - <span id="c-score">0</span> Computer
+    </h2>
+    <div class="display-moves">
+      <div class="move">
+        <img id="p-move" src="rock.png" width="40%">
+      </div>
+      <div class="separator">VS</div>
+      <div class="move">
+        <img id="c-move" src="rock.png" width="40%">
+      </div>
+    </div>
+    <h2>Click on the image below to select your move:<h2>
+    <div class="action">
+      <input class="options" type="image" src="rock.png" value="Rock"/>
+      <input class="options" type="image" src="Paper.png" value="Paper"/>
+      <input class="options" type="image" src="Scissors.png" value="Scissors"/>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
