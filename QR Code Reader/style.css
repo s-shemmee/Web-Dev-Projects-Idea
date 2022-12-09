@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: blueviolet;
+  margin: 0 auto;
+}
+
+#qr-reader {
+  width: 200%;
+  height: 200%;
+  border: 1px solid black;
+}
