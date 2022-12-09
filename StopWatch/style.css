@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+#stopwatch {
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+}
