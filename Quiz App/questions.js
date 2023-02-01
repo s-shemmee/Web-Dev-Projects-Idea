@@ -91,7 +91,7 @@ let questions = [
   {
     numb: 9,
     question: "correct extension of the Python file?",
-    answer: ".java",
+    answer: ".py",
     options: [
       ".py",
       ".java",
