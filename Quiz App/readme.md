@@ -34,7 +34,6 @@ This app can be deployed in two ways:
 2. Open the index.html file in a web browser
 3. Create your quiz by entering questions, options, and the correct answer
 4. Start the quiz and see how well you perform
-5. Option to save and resume quizzes at a later time
 
 ## Conclusion
 

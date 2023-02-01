@@ -30,7 +30,6 @@ This app can be deployed in two ways:
 1. Clone the repository or download the files to your computer
 2. Open the index.html file in a web browser
 3. Perform basic arithmetic operations using the calculator
-4. Option to save and resume calculations at a later time
 
 ## Conclusion
 
