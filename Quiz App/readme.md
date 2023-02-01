@@ -4,9 +4,9 @@ Welcome to my Quiz App! This is a simple and interactive app that allows users t
 
 ## Previews
 
-(pre1.jpg)[]
-(pre2.jpg)[]
-(pre3.jpg)[]
+![Preview](/Quiz%20App/pre1.JPG)
+![Preview](/Quiz%20App/pre2.JPG)
+![Preview](/Quiz%20App/pre3.JPG)
 
 ## Features
 
