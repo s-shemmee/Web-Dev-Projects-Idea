@@ -4,13 +4,13 @@ body {
   text-align: center;
   color: aliceblue;
   font-family: 'Dosis';
+  background-color: #5e17eb;
 }
 .container {
-    margin: 0 auto;
-    background-color: #5e17eb;
-    border-radius: 20px;
-    padding: 25px 50px;
-    width: 80vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 25px 50px;
+  width: 80vw;
 }
 .action {
   max-width: 800px;
