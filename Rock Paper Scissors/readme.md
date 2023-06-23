@@ -4,7 +4,7 @@ Welcome to my Simple Rock Paper Scissors Game! This is a basic game that allows 
 
 ## Previews
 
-![Preview](/Rock%20Paper%20Scissors/pre1)
+![Preview](/Rock%20Paper%20Scissors/pre1.JPG)
 
 ## Features
 
