@@ -1,21 +1,26 @@
+// Get the start, stop, and reset buttons
 let startBtn = document.getElementById('start');
 let stopBtn = document.getElementById('stop');
 let resetBtn = document.getElementById('reset');
 
+// Initialize variables for hour, minute, second, and count
 let hour = 00;
 let minute = 00;
 let second = 00;
 let count = 00;
 
+// Event listener for the start button
 startBtn.addEventListener('click', function () {
 	timer = true;
 	stopWatch();
 });
 
+// Event listener for the stop button
 stopBtn.addEventListener('click', function () {
 	timer = false;
 });
 
+// Event listener for the reset button
 resetBtn.addEventListener('click', function () {
 	timer = false;
 	hour = 0;
@@ -28,6 +33,7 @@ resetBtn.addEventListener('click', function () {
 	document.getElementById('count').innerHTML = "00";
 });
 
+// Function to run the stopwatch
 function stopWatch() {
 	if (timer) {
 		count++;
@@ -69,10 +75,13 @@ function stopWatch() {
 			countString = "0" + countString;
 		}
 
+		// Update the display with the updated time values
 		document.getElementById('hr').innerHTML = hrString;
 		document.getElementById('min').innerHTML = minString;
 		document.getElementById('sec').innerHTML = secString;
 		document.getElementById('count').innerHTML = countString;
+
+		// Call the stopWatch function again after a delay of 10 milliseconds
 		setTimeout(stopWatch, 10);
 	}
 }
