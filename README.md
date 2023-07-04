@@ -6,7 +6,7 @@
 
 ---
 
-**40 project ideas for web developers**
+**+40 project ideas for web developers**
 
 - Calculator
 - Quiz App
@@ -14,13 +14,15 @@
 - Note App
 - Stopwatch App
 - QR Code Reader
-- Weather App
+- [Weather App](https://github.com/shemmee/Weather-App)
+- [Portfolio Website](https://github.com/shemmee/Potfolio-Project)
+- [TikTok Clone](https://github.com/shemmee/TikTok-UI-Clone)
+- [Dictionary Web App](https://github.com/shemmee/Dictionary-React-App)
 - E-Commerce Website
 - Landing Page
 - Password Generator
 - Tic Tac Toe Game
 - URL Shortner
-- Portfolio Website
 - Drawing App
 - Food Order Website
 - Meme Generator
