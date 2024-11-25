@@ -21,6 +21,7 @@
 - [Landing Page](https://github.com/shemmee/NFT-Portfolio-Landing-Page)
 - [AI Movie App](https://github.com/s-shemmee/MoviePitch)
 - [Chat App](https://github.com/s-shemmee/ChatNow)
+- [Dictionary App](https://github.com/s-shemmee/Dictionary-React-App)
 - E-Commerce Website
 - Password Generator
 - Tic Tac Toe Game
