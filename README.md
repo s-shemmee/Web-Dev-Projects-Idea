@@ -19,7 +19,7 @@
 - [TikTok Clone](https://github.com/shemmee/TikTok-UI-Clone)
 - [Dictionary Web App](https://github.com/shemmee/Dictionary-React-App)
 - [Landing Page](https://github.com/shemmee/NFT-Portfolio-Landing-Page)
-- [Movie App](https://github.com/s-shemmee/MoviePitch)
+- [AI Movie App](https://github.com/s-shemmee/MoviePitch)
 - [Chat App](https://github.com/s-shemmee/ChatNow)
 - E-Commerce Website
 - Password Generator
