@@ -15,10 +15,12 @@
 - Stopwatch App
 - QR Code Reader
 - [Weather App](https://github.com/shemmee/Weather-App)
-- [Portfolio Website](https://github.com/shemmee/Potfolio-Project)
+- [Portfolio Website](https://github.com/s-shemmee/my-portfolio-website)
 - [TikTok Clone](https://github.com/shemmee/TikTok-UI-Clone)
 - [Dictionary Web App](https://github.com/shemmee/Dictionary-React-App)
 - [Landing Page](https://github.com/shemmee/NFT-Portfolio-Landing-Page)
+- [Movie App](https://github.com/s-shemmee/MoviePitch)
+- [Chat App](https://github.com/s-shemmee/ChatNow)
 - E-Commerce Website
 - Password Generator
 - Tic Tac Toe Game
@@ -26,8 +28,6 @@
 - Drawing App
 - Food Order Website
 - Meme Generator
-- Movie App
-- Chat App
 - Twitter Clone
 - Survey App
 - E-Book Site
